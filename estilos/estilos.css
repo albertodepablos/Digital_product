@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+:root{
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black--color: #313337;
+  --space: 10px;
+  --normal: 12px;
+  --box: 0px 0 2px 1px #e6e5e9;
+}
+
+label{
+  font-size: var(--normal);
+  padding-bottom: 5px;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover{
+color: var(--white-color);
+}
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+  margin: 0;
+}
+
+.products{
+  background-image: url("../imagenes/curve.png");
+  height: 95px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 20%;
+  display: flex;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -240px;
+}
+
+.product .content{
+  background-color:var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.img_content{
+  text-align: center;
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
+}
+
+.detail_section{
+  padding: 10%;
+  display: flex;
+}
+
+.detail{
+  padding: 20px;
+  text-align: center;
+}
+
+.detail img{
+  max-height: 100px;
+}
+
+.text_detail{
+  text-align: justify;
+}
+
+hr{
+  opacity: .2;
+}
+
+.mention_title{
+  text-align: center;
+}
+
+.mentions{
+display: flex;
+padding: 5%; 
+}
+
+.mentions img{
+  width: 100%;
+}
+
+.mention{
+  padding: var(--space);
+}
+
+.mention_content{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.mention .text{
+  padding: var(--space);
+}
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  margin: auto;
+  width: 100%;
+}
+
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px ;
+  border: 1px solid black;
+  box-sizing: border-box;
+
+}
+
+footer{
+  background: #313337;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+}
+
+.contact a{
+  color: var(--green-color);
+  text-decoration: none;
+}
